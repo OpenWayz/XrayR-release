@@ -12,7 +12,7 @@ Find the source code here: [XrayR-project/XrayR](https://github.com/XrayR-projec
 # 一键安装
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/OpenWayz/XrayR-release/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/OpenWayz/XrayR-release/main/install.sh)
 ```
 
 # 一键Docker compose安装 安装v0.9.1  配置文件中docker-compose.yml指定
