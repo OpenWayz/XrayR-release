@@ -121,10 +121,9 @@ install_XrayR() {
             exit 1
         fi
     else
+        last_version=$1
         if [[ $1 == v* ]]; then
-            last_version=$1
-	else
-	    last_version="v"$1
+	    echo -e "${yellow}警告：你输入的版本号 $1 含有 v 前缀，而版本目录没有 v，可能导致下载失败${plain}"
 	fi
         url="https://github.com/OpenWayz/XrayR/releases/download/${last_version}/XrayR-linux-${arch}.zip"
         echo -e "开始安装 XrayR ${last_version}"
